@@ -10,7 +10,7 @@ const Skill = ({ title, src }) => {
       <div className='skill'>
         <div className='skill_Logo m-4 mb-0'>
          
-          <img src={src} alt={`Logo for ${title}`} />
+          <img src={require(`../../assets/${src}`)} alt={`Logo for ${title}`} />
         </div>
         <h1 className='skill_title mx-4 '>{title}</h1>
         
