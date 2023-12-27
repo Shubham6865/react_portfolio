@@ -24,9 +24,11 @@ const Footer = () => {
         <div className="row">
             
           <div className="col ">
-            <i class="fa-brands fa-linkedin mx-2"></i>
-            <i class="fa-brands fa-facebook mx-2"></i>
-            <i class="fa-brands fa-instagram mx-2"></i>
+            <a href="https://www.linkedin.com/in/shubhamparade" rel="noreferrer" target='_blank'> <i class="fa-brands fa-linkedin mx-2"></i></a>
+           
+            
+            <a target="blank"  href="https://www.instagram.com/shubham_._sp_._" ><i class="fa-brands fa-instagram mx-2"></i></a>
+    
           </div>
         </div>
       
