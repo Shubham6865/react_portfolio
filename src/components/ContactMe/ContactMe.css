@@ -1,0 +1,16 @@
+.contactmeform{
+
+     width: 50%;
+     border: 1px solid rgb(255, 187, 0);
+}
+
+.contactmeform:hover{
+     border-color: rgb(9, 243, 243);
+}
+
+@media screen and (max-width:500px) {
+     .contactmeform{
+
+          width: 100%;
+     }
+}

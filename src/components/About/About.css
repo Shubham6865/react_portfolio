@@ -1,0 +1,51 @@
+.about{
+     border: none;
+     border-radius: 50px;
+}
+
+.profile{
+     /* background-color: aqua; */
+     /* width: 100%; */
+    
+}
+
+.profile_img{
+    
+     background-color: rgb(255, 255, 255);
+     /* width: 100%; */
+     /* height: 100%; */
+}
+
+.profile_img:hover{
+
+   
+     background-color: rgb(255, 255, 255,0.5);
+     padding: 0px;
+}
+
+img{
+     width: 90%;
+ 
+}
+
+
+
+@media screen and (max-width:800px) {
+     img{
+          width: 50%;
+      
+     }
+
+     .profile_img{
+    
+     background-color: rgba(255, 255, 255, 0);
+
+     margin-top: 50px;
+     
+     img{
+          background-color: rgb(255, 255, 255);
+          border-radius: 30%;
+     }
+     
+}
+}

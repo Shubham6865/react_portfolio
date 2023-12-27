@@ -1,0 +1,42 @@
+/* #home { */
+
+    /* background: 
+    linear-gradient(
+        to right, rgb(0 0 0 /.8),rgb(0 0 0 /0)
+    ), url('../../assets/img\ 9.svg')
+    ; */
+    /* height: 90vh; */
+    /* background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;  */
+
+ 
+/* } */
+.downarrow {
+    animation: moveUpDown 2s infinite; 
+    width: 40px;
+    color: aliceblue;
+  }
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); 
+    }
+  }
+  
+
+
+
+/* @media screen and (max-width: 500px) {
+
+   
+} */
+
+
+
+
