@@ -9,7 +9,7 @@ const About = () => {
       <h1 className=' display-1 fw-bold text-white'>About</h1>
         <div className='col-12 col-md-8 p-0 m-0  '>
 
-           <div className='bg-light text-dark  text-start h-100 about '>
+           <div className='bg-light text-dark  text-start h-100 about text-justify'>
           <p className='pt-4 px-4'>
             Hello! I'm dedicated React developer with a knack for crafting seamless web experiences. With expertise in React, JavaScript, HTML, CSS, and Bootstrap, 
             I thrive on turning concepts into captivating digital realities.

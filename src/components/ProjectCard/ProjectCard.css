@@ -31,10 +31,11 @@ a:hover{
     /* height: 250px; */
     border-top-left-radius:30px;
     border-bottom-left-radius:30px;
-   
+    
     p{
      padding: 10px;
      padding-bottom: 0px;
+     text-align: justify;
     }
   }
 
