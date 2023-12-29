@@ -1,15 +1,27 @@
 .contactmeform{
 
-     width: 50%;
+     width: 75%;
      border: 1px solid rgb(255, 187, 0);
      backdrop-filter: blur(5px);
+
+     input{
+          border: 1px solid rgb(10, 10, 10);
+     }
+
+     button{
+          border: 1px solid rgb(238, 235, 235);
+     }
 }
 
 .contactmeform:hover{
      border-color: rgb(9, 243, 243);
+
+     button{
+          border: 1px solid rgb(3, 110, 3);
+     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
      .contactmeform{
 
           width: 100%;

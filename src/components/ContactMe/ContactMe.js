@@ -25,7 +25,7 @@ const ContactMe = () => {
     <div className="form-group">
       <textarea placeholder="Your Message" className="form-control my-3 " name="message" rows="03" required></textarea>
     </div>
-    <button type="submit" className="btn btn-lg btn-dark btn-block">Submit</button>
+    <button type="submit" className="btn btn-lg btn-dark btn-block form-control">Submit</button>
   </form>
         </div>
       </div>
