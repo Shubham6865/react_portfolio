@@ -15,8 +15,8 @@ const Home = () => {
               <p id='welcometext' className=' h3 my-4 '>
                 Welcome to my digital playground!
               </p>
-              <p className='display-1 fw-bold  mb-4 '>
-                <span className=' title ' >  I'm  Shubham Parade </span>
+              <p className=' fw-bold  mb-4 '>
+                <span className=' title home_section_name' >  I'm  Shubham Parade </span>
               </p>
               <div className='d-flex flex-column align-items-center'>
 

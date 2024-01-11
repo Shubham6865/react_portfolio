@@ -11,6 +11,12 @@
 
 }
 
+.home_section_name {
+  font-size: 80px;
+
+  /* background-color: aqua; */
+}
+
 .downarrow {
   animation: moveUpDown 2s infinite;
   width: 40px;
@@ -28,5 +34,21 @@
 
   50% {
     transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width:850px) {
+  .home_section_name {
+    font-size: 60px;
+
+    /* background-color: aqua; */
+  }
+}
+
+@media screen and (max-width:650px) {
+  .home_section_name {
+    font-size: 37px;
+
+    /* background-color: aqua; */
   }
 }
