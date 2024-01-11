@@ -10,19 +10,15 @@ const ProjectCard = ({title,skills,description,githubLink,demoLink,img} ) => {
   return (
     
 
-    <div className='container-lg mb-4 mt-4 p-0 '>
+    <div className='my-4 p-0 '>
        
        <div className='project_Img m-0 p-0 d-flex '>
-       <h1 className='project_Title bg-light '>{title}</h1></div>
+       <h1 className='project_Title  '>{title}</h1></div>
         <img className='project_poster ' src={require(`../../assets/${img}`)} alt={title} />
 
-      
-        
-
-        
-
+    
        <div className='project_Description   d-flex flex-row-reverse '>
-        <div className=' bg-light '>
+        <div >
         <p  >{description}</p>
         
           <strong>
