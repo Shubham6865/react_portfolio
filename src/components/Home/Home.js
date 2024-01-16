@@ -30,7 +30,7 @@ const Home = () => {
               <p className='mb-4 px-4 text-justify'>
                 On a mission to turn ideas into captivating web experiences. Dive into my world of code and creativity, where every line brings your vision to life. Let's build something extraordinary together.
               </p>
-              <div className="align-center">
+              {/* <div className="align-center">
                 <a
                   href="/resume.pdf"
                   download="Resume_Shubham.pdf"
@@ -38,7 +38,7 @@ const Home = () => {
                 >
                   Download CV
                 </a>
-              </div>
+              </div> */}
 
 
               <img src={downarrow} alt="arrow" className='mt-4 downarrow' />
