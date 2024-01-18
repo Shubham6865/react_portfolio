@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import downarrow from '../../assets/downarrow.svg'
+import downarrow from '../../assets/DownArrow.PNG'
 import { TypeAnimation } from 'react-type-animation';
 import { Container, Row } from 'react-bootstrap';
 
