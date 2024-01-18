@@ -1,16 +1,12 @@
-import React from 'react';
-import './Navbar.css'
-
-
 
 const Navbar = () => {
   return (
-    
-    <nav className="navbar navbar-expand-md navbar-dark sticky-top container-fluid w-100 nav_bg ">
+
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top  w-100 nav_bg p-0 m-0 ">
       <div className="container-fluid">
-      <a className="navbar-brand" href="/">
-            PORTFOLIO
-          </a>
+        <a className="navbar-brand" href="/">
+          PORTFOLIO
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,7 +19,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-         
+
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="#home">
@@ -31,7 +27,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="#about">
+              <a className="nav-link" href="#about">
                 ABOUT
               </a>
             </li>
@@ -51,11 +47,11 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          
+
         </div>
       </div>
     </nav>
-   
+
   );
 };
 

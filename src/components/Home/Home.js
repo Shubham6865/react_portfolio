@@ -1,55 +1,44 @@
 import React from 'react';
 import './Home.css';
-import downarrow from '../../assets/down-arrow  2.svg'
+import downarrow from '../../assets/downarrow.svg'
 import { TypeAnimation } from 'react-type-animation';
+import { Container, Row } from 'react-bootstrap';
+
 
 const Home = () => {
 
   return (
     <>
-      <div id='home' className='w-100 d-flex flex-column justify-content-center align-items-center '>
-        <div className=' row '>
 
-          <div className='col-lg-10 col-sm-12 mx-auto mt-4'>
-            <div className='text-center '>
-              <p id='welcometext' className=' h3 my-4 '>
-                Welcome to my digital playground!
-              </p>
-              <p className=' fw-bold  mb-4 '>
-                <span className=' title home_section_name' >  I'm  Shubham Parade </span>
-              </p>
-              <div className='d-flex flex-column align-items-center'>
+      <section id='home' className='parallaxEffect'>
 
-                <TypeAnimation className='h5  pb-1 mb-4'
-                  sequence={['FrontEnd Developer', 500, 'React Developer', 500]}
-                  style={{ fontSize: '2em', fontFamily: 'Arial, sans-serif;' }}
-                  repeat={Infinity}
-                />
-              </div>
+        <Container className='d-flex flex-column justify-content-center align-items-center h-100  p-0 '>
 
-              <p className='mb-4 px-4 text-justify'>
-                On a mission to turn ideas into captivating web experiences. Dive into my world of code and creativity, where every line brings your vision to life. Let's build something extraordinary together.
-              </p>
-              {/* <div className="align-center">
-                <a
-                  href="/resume.pdf"
-                  download="Resume_Shubham.pdf"
-                  className="btn btn-dark"
-                >
-                  Download CV
-                </a>
-              </div> */}
+          <Row className='home_welcometext m-0'>Welcome to my digital playground!</Row>
+          <Row className=' home_section_name m-0'>I'm  Shubham Parade </Row>
+          <Row className='  fw-bold m-0 pt-2 my-4' >
+            <TypeAnimation className='h5  m-0 p-0'
+              sequence={['FrontEnd Developer', 500, 'React Developer', 500]}
+              repeat={Infinity}
+            />
+          </Row>
+          <Row className='m-0 mb-4 text-justify'>On a mission to turn ideas into captivating web experiences. Dive into my world of code and creativity, where every line brings your vision to life. Let's build something extraordinary together.
+          </Row>
+          {/* <Row className='m-0 mb-4'>
+    <a href="/resume.pdf" download="Resume_Shubham.pdf"
+      className="btn btn-dark">
+      Download CV
+    </a>
+  </Row> */}
+          <Row className=''>
+            <img src={downarrow} alt="arrow" className='mt-4 downarrow ' />
+          </Row>
+
+        </Container>
+
+      </section>
 
 
-              <img src={downarrow} alt="arrow" className='mt-4 downarrow' />
-
-
-
-            </div>
-          </div>
-
-        </div>
-      </div>
     </>
 
   );

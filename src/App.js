@@ -7,16 +7,19 @@ import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div className="App ">
-     <Navbar/>
-     <Home/>
-     <Work/>
-     <Skills/>
-     <About/>
-     <ContactMe/>
-     <Footer/>
+      <Navbar />
+
+      <Home />
+      {/* <Parallax /> */}
+      <Work />
+      <Skills />
+      <About />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }

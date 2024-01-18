@@ -1,44 +1,36 @@
-.skill{
+/* .skill {
 
      display: inline-block;
 
-     h1{
+     h1 {
           visibility: hidden;
           color: brown;
           width: 150px;
           font-size: 28px;
-          /* background:#fff; */
+          
+     }
+} */
+
+.skill {
+     h3 {
+          visibility: hidden;
      }
 }
 
 
-.skill_Logo{
-     width: 150px;
-     height: 150px;
-     /* display: inline-block; */
-     img{
-          width: 100%;
-          height: 100%;
-          color: black
-     };
-    
-}
 
 
-.skill:hover{
+.skill:hover {
 
-     img{
+     img {
           scale: 1.2;
           position: relative;
           bottom: 20px;
      }
-     h1{
+
+     h3 {
           visibility: visible;
           color: rgb(0, 0, 0);
           font-weight: bolder;
      }
 }
-
-
-
-

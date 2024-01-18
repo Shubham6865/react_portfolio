@@ -3,6 +3,7 @@ import './Work.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import Data from '../../Data.json';
 
+
 const Work = () => {
   const projectsPerPage = 3;
   const [currentPage, setCurrentPage] = useState(1);
@@ -34,8 +35,8 @@ const Work = () => {
         </div>
       ))}
 
-      <nav aria-label="Page navigation example">
-        <ul className="pagination justify-content-center">
+      <nav aria-label="Page navigation ">
+        <ul className="pagination justify-content-center  ">
           <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
             <button className="page-link" onClick={() => paginate(currentPage - 1)} tabIndex="-1" aria-disabled="true">Previous</button>
           </li>
@@ -49,6 +50,7 @@ const Work = () => {
           </li>
         </ul>
       </nav>
+
     </div>
   );
 };
