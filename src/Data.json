@@ -1,4 +1,21 @@
 {
+  "Inprogressproject": [
+    {
+      "id": "1",
+      "title": "React Admin Dashboard",
+      "skills": [
+        "SCSS",
+        "Material UI",
+        "Recharts",
+        "React Router DOM",
+        "React"
+      ],
+      "githubLink": "https://github.com/Shubham6865/GPT3-React-Project",
+      "demoLink": "https://admindashboardshubhamparade.netlify.app/",
+      "img": "Project_5.1.PNG",
+      "description": "Some features haven't been developed yet. "
+    }
+  ],
   "projects": [
     {
       "id": "1",

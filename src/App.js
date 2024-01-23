@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
+import CurrentProject from './components/CurrentProjects/CurrentProject';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home />
       {/* <Parallax /> */}
       <Work />
+      <CurrentProject />
       <Skills />
       <About />
       <ContactMe />
