@@ -10,7 +10,7 @@ const CurrentProject = () => {
 
             <Container className=' d-flex flex-column justify-content-center align-items-center h-100 p-0 my-4 '>
                 <Row>
-                    <span className=' title display-1 fw-bold my-4'>Current Working On</span>
+                    <span className=' title display-1 fw-bold my-4'>Inprogress</span>
                 </Row>
             </Container>
             <Row>
