@@ -1,5 +1,9 @@
 .parallaxEffect {
-  background: url(../../assets/img_6.jpg) repeat repeat;
+  /* background: url(../../assets/img_6.jpg) repeat repeat;
+   */
+  /* background: url(../../assets/img_6.jpg) repeat repeat; */
+  background: url('https://reactportfolioshubhamparade.netlify.app/assets/img_6.jpg') repeat repeat;
+
   background-size: cover;
   background-Attachment: fixed;
   overflow: hidden;
@@ -59,8 +63,9 @@
 @media screen and (max-width:650px) {
 
   .parallaxEffect {
+    background: url('https://reactportfolioshubhamparade.netlify.app/assets/HomeBG-1.jpg') repeat repeat;
 
-    background: url(../../assets/HomeBG-1.jpg) repeat repeat;
+    /* background: url(../../assets/HomeBG-1.jpg) repeat repeat; */
     background-size: cover;
     background-Attachment: fixed;
     filter: blur(0.1);

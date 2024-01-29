@@ -8,6 +8,7 @@ import About from './components/About/About';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 import CurrentProject from './components/CurrentProjects/CurrentProject';
+import Slider from './components/Slider/Slider';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
 
       <Home />
+      <Slider />
       {/* <Parallax /> */}
       <Work />
       <CurrentProject />

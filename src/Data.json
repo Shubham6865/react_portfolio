@@ -73,6 +73,21 @@
       "demoLink": "https://cryptolensshubhamparade.netlify.app/",
       "img": "Project_3.1.PNG",
       "description": "Developed an innovative Crypto Lense application using Chakra UI, Framer Motion, React Responsive Carousel, React ChartJS, React Router DOM, and Axios. This dynamic web app provides comprehensive details on cryptocurrencies and exchanges, offering a user-friendly experience for exploring real-time data. Leveraging the CoinGecko API, users can effortlessly navigate through coin information, view exchange data, and gain insights through interactive charts. The combination of responsive design, smooth animations, and seamless navigation enhances user engagement. This project showcases my proficiency in React-based technologies, API integration, providing a practical solution for cryptocurrency enthusiasts."
+    },
+    {
+      "id": "5",
+      "title": "Knowkedge Nest",
+      "skills": [
+        "styled-components",
+        "react-router-dom",
+        "react-icons",
+        "Javascript",
+        "CSS"
+      ],
+      "githubLink": "https://github.com/Shubham6865/udemy_clone",
+      "demoLink": "https://knowledgenestshubhamparade.netlify.app/",
+      "img": "Project_6.PNG",
+      "description": "KnowledgeNest, an innovative online learning platform built with technologies like React and styled-components, offers an immersive educational experience. Featuring ongoing deals for affordability, the platform presents a user-friendly interface with responsive design for seamless access on various devices. Users can explore diverse courses categorized by language and technology, benefiting from a robust filtering system. The platform includes a cart feature for personalized learning journeys, allowing users to add, remove, or clear courses effortlessly. Detailed course insights and real-time pricing information keep learners informed. KnowledgeNest stands out for its expert-curated categories, providing users with a tailored and enriching educational exploration."
     }
   ],
   "skills": [
