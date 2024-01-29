@@ -13,7 +13,7 @@ const CurrentProject = () => {
                     <span className=' title display-1 fw-bold my-4'>Inprogress</span>
                 </Row>
             </Container>
-            <Row>
+            <Row className=' p-0 m-0'>
 
                 {data.Inprogressproject.map((project) => (
                     <div key={project.id} className='col'>

@@ -4,7 +4,7 @@ import Data from '../../Data.json';
 const Slider = () => {
     return (
         <>
-            <div className="slider w-100  d-flex justify-content-center m-4">
+            <div className="slider w-100  d-flex justify-content-center my-4">
                 <div id="carouselExampleDark" className="carousel carousel-dark slide  w-75" data-bs-ride="carousel" >
                     <div className="carousel-indicators   " >
                         {Data.projects.map((project, index) => (

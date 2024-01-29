@@ -19,7 +19,7 @@ const Work = () => {
   };
 
   return (
-    <div className='projects d-flex  flex-column align-items-center' id='project'>
+    <div className='projects d-flex  flex-column align-items-center ' id='project'>
       <h1 className='my-4 display-1 fw-bold title'>Projects </h1>
 
       {currentProjects.map((project) => (

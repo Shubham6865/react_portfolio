@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
 
-      <section id='home' className='parallaxEffect'>
+      <section id='home' className='parallaxEffect '>
 
         <Container className='d-flex flex-column justify-content-center align-items-center h-100  p-0 '>
 

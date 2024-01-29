@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
 
-      <Container id='about' className=' d-flex flex-column justify-content-center align-items-center h-100 p-0 my-4'>
+      <Container id='about' className=' d-flex flex-column justify-content-center align-items-center h-100 p-0 my-4 '>
 
         <Row>
           <span className=' title display-1 fw-bold my-4'>About</span>

@@ -7,7 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Skills = () => {
   return (
     <>
-      <Container id='skills' className='d-flex flex-column justify-content-center align-items-center h-100 p-0 '>
+      <Container id='skills' className='d-flex flex-column justify-content-center align-items-center h-100 p-0  '>
 
         <Row>
           <span className=' title display-1 fw-bold'>Skills</span>
