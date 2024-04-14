@@ -88,6 +88,21 @@
       "demoLink": "https://knowledgenestshubhamparade.netlify.app/",
       "img": "Project_6.PNG",
       "description": "KnowledgeNest, an innovative online learning platform built with technologies like React and styled-components, offers an immersive educational experience. Featuring ongoing deals for affordability, the platform presents a user-friendly interface with responsive design for seamless access on various devices. Users can explore diverse courses categorized by language and technology, benefiting from a robust filtering system. The platform includes a cart feature for personalized learning journeys, allowing users to add, remove, or clear courses effortlessly. Detailed course insights and real-time pricing information keep learners informed. KnowledgeNest stands out for its expert-curated categories, providing users with a tailored and enriching educational exploration."
+    },
+    {
+      "id": "5",
+      "title": "Gericht Restaurant",
+      "skills": [
+        "JSX",
+        "MUI",
+        "react-icons",
+        "Javascript",
+        "CSS"
+      ],
+      "githubLink": "https://github.com/Shubham6865/Gericht_Restaurant",
+      "demoLink": "https://gerichtrestaurantshubhamparade.netlify.app/",
+      "img": "Project_7.PNG",
+      "description": ""
     }
   ],
   "skills": [
